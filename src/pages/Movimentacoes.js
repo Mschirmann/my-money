@@ -58,7 +58,7 @@ const Movimentacoes = ( {match}) => {
             {
                 !dataMeses.loading && dataMeses.data && 
                 <div>
-                    <span>Previsão entrada: {dataMeses.data.previsao_entradas} </span> <input type='text' onBlur={alterarPrevisaoEntrada} /> \ 
+                    <span>Previsão entrada: {dataMeses.data.previsao_entradas} </span> <input type='text' onBlur={alterarPrevisaoEntrada} /> \
                     <span>Previsão saida:  {dataMeses.data.previsao_saidas} </span> <input type='text' onBlur={alterarPrevisaoSaida} />  <br />
                     Entradas : {dataMeses.data.entradas}  \ Saidas : {dataMeses.data.saidas} <br />
                 </div>
