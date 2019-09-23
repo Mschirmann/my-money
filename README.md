@@ -1,2 +1,2 @@
 # my-money
-application to manage expenses
+application to manage and control expenses
